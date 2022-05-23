@@ -1769,9 +1769,9 @@ left: -8px;
 }
 
 
-.header {
-	background: #e8e9e9;
-	padding: 35px 0px;
+.headernav {
+	/* background: #e8e9e9; */
+	padding: 15px 0px;
 }
 
 .logo a {

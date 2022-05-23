@@ -31,7 +31,7 @@ if (!empty($_SESSION['name'])) {
     <link rel="stylesheet" href="css/style2.css">
     <!-- Responsive-->
     <link rel="stylesheet" href="css/responsive.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
     <!-- font-awesome -->
     <script src="https://kit.fontawesome.com/4a27207296.js" crossorigin="anonymous"></script>
     <!-- fevicon -->
@@ -44,6 +44,11 @@ if (!empty($_SESSION['name'])) {
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+    <style>
+        body{
+            font-family:Arial, Helvetica, sans-serif;
+        }
+    </style>
 </head>
 <!-- body -->
 
@@ -82,8 +87,8 @@ if (!empty($_SESSION['name'])) {
             <!-- header -->
             <header>
                 <!-- header inner -->
-                <div class="header header-bg">
-
+                <div class="headernav">
+<!-- header-bg -->
                     <div class="container-fluid">
 
                         <div class="row">
@@ -91,7 +96,7 @@ if (!empty($_SESSION['name'])) {
                                 <div class="full">
                                     <div class="center-desk">
                                         <div class="logo">
-                                            <a href="index.php"><img src="images/logo.png" alt="#"></a>
+                                            <a href="index.php"><img src="images/logo1.png" alt="#"></a>
                                         </div>
                                     </div>
                                 </div>

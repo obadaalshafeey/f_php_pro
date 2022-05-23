@@ -1,7 +1,11 @@
 <?php
 session_start();
 include 'include/header.php'; ?>
-<br>
+<div class="hr-theme-slash-2">
+  <div class="hr-line"></div>
+  <div class="hr-icon"><i class="fa-solid fa-couch"></i></div>
+  <div class="hr-line"></div>
+</div>
 <div class="contactus">
    <div class="container-fluid">
       <div class="row">

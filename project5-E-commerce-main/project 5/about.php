@@ -1,7 +1,11 @@
 <?php
 session_start();
 include './include/header.php'; ?>
-<br>
+<div class="hr-theme-slash-2">
+  <div class="hr-line"></div>
+  <div class="hr-icon"><i class="fa-solid fa-couch"></i></div>
+  <div class="hr-line"></div>
+</div>
 <div class="contactus">
   <div class="container-fluid">
     <div class="row">
@@ -41,7 +45,7 @@ include './include/header.php'; ?>
       <!-- //////////////////////////////// -->
       <!--first one -->
       <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
-        <div class="card" style="width: 18rem;">
+        <div class="card aboutheight" style="width: 18rem;">
           <img class="card-img-top" src="./images/anas.png" alt="Card image cap">
           <div class="card-body">
             <h3 class="card-title">Anas Allawafeh</h3>
@@ -54,7 +58,7 @@ include './include/header.php'; ?>
       <!-- </div> -->
       <!-- second one -->
       <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
-        <div class="card" style="width: 18rem;">
+        <div class="card aboutheight" style="width: 18rem;">
           <img class="card-img-top" src="./images/dua.png" alt="Card image cap">
           <div class="card-body">
             <h3 class="card-title">Du'a Alsafasfeh</h3>
@@ -66,7 +70,7 @@ include './include/header.php'; ?>
       </div>
       <!-- third one -->
       <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
-        <div class="card" style="width: 18rem;">
+        <div class="card aboutheight" style="width: 18rem;">
           <img class="card-img-top" src="./images/dyar.png" alt="Card image cap">
           <div class="card-body">
             <h3 class="card-title">Dyar Alhunaity</h3>
@@ -83,7 +87,7 @@ include './include/header.php'; ?>
     <div class="row">
       <!-- fourth one -->
       <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
-        <div class="card" style="width: 18rem;">
+        <div class="card aboutheight" style="width: 18rem;">
           <img class="card-img-top" src="./images/marwa1.png" alt="Card image cap">
           <div class="card-body">
             <h3 class="card-title">Marwa Nseerat</h3>
@@ -95,7 +99,7 @@ include './include/header.php'; ?>
       </div>
       <!-- fifth one -->
       <div class="col-xl- col-lg-6 col-md-6 col-sm-12">
-        <div class="card" style="width: 18rem;">
+        <div class="card aboutheight" style="width: 18rem;">
           <img class="card-img-top" src="./images/obada.png" alt="Card image cap">
           <div class="card-body">
             <h3 class="card-title">Obada Alshafeey</h3>
