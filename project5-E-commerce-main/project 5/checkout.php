@@ -35,7 +35,6 @@
       {
       $totalPrice += $item['total_price'];
       header('location:thank-you.php');
-      // exit();
       }
     }
 	
@@ -73,7 +72,7 @@
           </ul>
         </div>
         <div class="col-md-4 order-md-1">
-          <!-- <h4 class="mb-3">Billing address</h4> -->
+          <h4 class="mb-3">Billing address</h4>
           <?php 
             if(isset($errorMsg) && count($errorMsg) > 0)
             {
@@ -84,17 +83,17 @@
             }
           ?>
            <form class="needs-validation" method="POST">
-            <!-- <div class="row">
+            <div class="row">
               <div class="col-md-6 mb-3">
                 <label for="firstName">First name</label>
                 <input type="text" class="form-control" id="firstName" name="first_name" placeholder="First Name" value="<?php 
-                // echo (isset($fnameValue) && !empty($fnameValue)) ? $fnameValue:'' 
+                echo (isset($fnameValue) && !empty($fnameValue)) ? $fnameValue:'' 
                 ?>" >
               </div>
               <div class="col-md-6 mb-3">
                 <label for="lastName">Last name</label>
                 <input type="text" class="form-control" id="lastName" name="last_name" placeholder="Last Name" value="<?php 
-                // echo (isset($lnameValue) && !empty($lnameValue)) ? $lnameValue:'' 
+                echo (isset($lnameValue) && !empty($lnameValue)) ? $lnameValue:'' 
                 ?>" >
               </div>
             </div>
@@ -102,21 +101,21 @@
             <div class="mb-3">
               <label for="email">Email</label>
               <input type="email" class="form-control" id="email" name="email" placeholder="you@example.com" value="<?php 
-              // echo (isset($emailValue) && !empty($emailValue)) ? $emailValue:'' 
+              echo (isset($emailValue) && !empty($emailValue)) ? $emailValue:'' 
               ?>">
             </div>
 
             <div class="mb-3">
               <label for="address">Address</label>
               <input type="text" class="form-control" id="address" name="address" placeholder="1234 Main St" value="<?php 
-              // echo (isset($addressValue) && !empty($addressValue)) ? $addressValue:'' 
+              echo (isset($addressValue) && !empty($addressValue)) ? $addressValue:'' 
               ?>">
             </div>
 
             <div class="mb-3">
               <label for="address2">Address 2 <span class="text-muted">(Optional)</span></label>
               <input type="text" class="form-control" id="address2" name="address2" placeholder="Apartment or suite" value="<?php 
-              // echo (isset($address2Value) && !empty($address2Value)) ? $address2Value:'' 
+              echo (isset($address2Value) && !empty($address2Value)) ? $address2Value:'' 
               ?>">
             </div>
 
@@ -138,7 +137,7 @@
               <div class="col-md-3 mb-3">
                 <label for="zip">Zip</label>
                 <input type="text" class="form-control" id="zip" name="zipcode" placeholder="" value="<?php 
-                // echo (isset($zipCodeValue) && !empty($zipCodeValue)) ? $zipCodeValue:'' 
+                echo (isset($zipCodeValue) && !empty($zipCodeValue)) ? $zipCodeValue:'' 
                 ?>" >
               </div>
             </div>
@@ -153,7 +152,7 @@
               </div>
             </div>
            
-            <hr class="mb-4">-->
+            <hr class="mb-4">
             <button class="btn btn-secondary btn-lg" type="submit" name="submit" value="submit" >Continue to checkout</button>
           </form> 
         

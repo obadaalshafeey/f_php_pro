@@ -27,7 +27,7 @@
     <div class="row">
         <div class="col-md-12 col-lg-12 col-xl-12 offset-md-4">
         <form action="main.php" method="POST" >
-            <select name="category" class="form-control col-4" id="" style="height:7vh ; display: inline-block; ">
+            <select name="category" class="form-control col-4" id="" style="height:10vh ; display: inline-block; ">
                 <option value="all">all products</option>
                 <option value="office">Office products</option>
                 <option value="Bedroom">Bedroom Products</option>

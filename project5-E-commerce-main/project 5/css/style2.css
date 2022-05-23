@@ -31,5 +31,11 @@
     width: 50%;
     margin: auto;
 }
+/* .card-body a{
+    font-size: 25px;
+} */
+.card img{
+    height: 50vh;
+}
 
 

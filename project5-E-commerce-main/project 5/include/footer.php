@@ -100,17 +100,17 @@
         });
     </script>
     <script>
-      // This example adds a marker to indicate the position of Bondi Beach in Sydney,
-      // Australia.
+      // This example adds a marker to indicate the position of Aqaba,
+      // Jordan.
       function initMap() {
         var map = new google.maps.Map(document.getElementById('map'), {
           zoom: 11,
-          center: {lat: 40.645037, lng: -73.880224},
+          center: {lat: 29.523985875711585, lng: 35.00098067068055},
           });
 
       var image = 'images/maps-and-flags.png';
       var beachMarker = new google.maps.Marker({
-          position: {lat: 40.645037, lng: -73.880224},
+          position: {lat: 29.523985875711585, lng: 35.00098067068055},
           map: map,
           icon: image
         });
@@ -119,7 +119,6 @@
     <!-- google map js -->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap"></script>
     <!-- end google map js --> 
-    
 </body>
 
 </html>

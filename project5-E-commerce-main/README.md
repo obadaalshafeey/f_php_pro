@@ -33,3 +33,5 @@ We have built an E-commerce Web Application using PHP and MYSQL.
 
 1. Trello Link 
    * [Trello Link](https://trello.com/b/AlGGQN6M/furniture)
+
+ <a href='https://archiveprogram.github.com/'><img src='https://raw.githubusercontent.com/acervenky/animated-github-badges/master/assets/acbadge.gif' width='40' height='40'></a> 

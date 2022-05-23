@@ -163,7 +163,7 @@ if (isset($_POST['addProductSubmit'])) {
     $creatat=date('d-m-Y');
     $updateat=date('d-m-Y');
 
-$sql="INSERT INTO products (pname,image,categoryname,price,quantity,created_at,updated_at) VALUES ('$newName','$newImage','$newCategory','$newPrice','$newQuantity','$creatat','$updateat';";
+$sql="INSERT INTO products (pname,image,categoryname,price,quantity,created_at,updated_at) VALUES ('$newName','$newImage','$newCategory','$newPrice','$newQuantity','$creatat','$updateat');";
 mysqli_query($conn,$sql);
 }
 
