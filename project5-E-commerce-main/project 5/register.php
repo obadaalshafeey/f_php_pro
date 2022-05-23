@@ -161,9 +161,12 @@
 ?>
 <br><br>
 
+<link rel="stylesheet" href="./css/login.css">
+<link rel="stylesheet" href="./css/">
+
 
 <!-- Sign Up form -->
-
+<div  class="loginBox" >
 <form class="needs-validation" action="register.php" method="POST" novalidate style="display:<?php echo $s2; ?> ;">
 <h2 style="text-align:center ; font-family: 'FontAwesome';
     font-weight: bolder;">Sign Up form</h2>
@@ -196,16 +199,8 @@
       </div>
     </div>
   </div>
-  <div class="col-md-4 offset-md-4">
-      <label for="validationphone">Phone</label>
-      <div class="input-group">
-        <input type="number" class="form-control is-inavalid" id="validationphone" name="phoneNumber" placeholder="0777777777" aria-describedby="inputGroupPrepend" pattern="[0-9]{14}" required>
-        <div class="invalid-feedback" style="display:<?php echo $tl ?>">
-        <?php echo $telErr ?>
-        </div>
-      </div>
-    </div>
-  <div class="form-group col-md-4 offset-md-4">
+ 
+  <!-- <div class="form-group col-md-4 offset-md-4">
       <label for="inputState">City</label>
       <select id="inputState" name="city" class="form-control is-inavalid" style="height:7vh ;">
         <option selected>Choose...</option>
@@ -222,7 +217,7 @@
         <option value="Madaba">Madaba</option>
         <option value="Al-Salt">Al-Salt</option>
       </select>
-    </div>
+    </div> -->
   <div class="form-row">
     <div class="col-md-4 offset-md-4">
       <label for="validationCustom03">Address</label>
@@ -238,6 +233,7 @@
         <?php echo $passwordErr ?>
       </div>
     </div>
+    
     <div class="col-md-2 ">
       <label for="validationConPass">Confirm password</label>
       <input type="password" class="form-control is-inavalid" id="validationConPass" name="registerConfPass" placeholder="********" required>
@@ -246,7 +242,16 @@
       </div>
     </div>
   </div>
-  <div class="col-md-4 offset-md-4">
+   <!-- <div class="col-md-4 offset-md-4">
+      <label for="validationphone">Phone</label>
+      <div class="input-group">
+        <input type="number" class="form-control is-inavalid" id="validationphone" name="phoneNumber" placeholder="0777777777" aria-describedby="inputGroupPrepend" pattern="[0-9]{14}" required>
+        <div class="invalid-feedback" style="display:<?php echo $tl ?>">
+        <?php echo $telErr ?>
+        </div>
+      </div>
+    </div> -->
+  <!-- <div class="col-md-4 offset-md-4">
       <label for="validationbdate">Birthdat</label>
       <div class="input-group">
         <input type="date" class="form-control is-inavalid" id="validationbdate" name="date" placeholder="test@test.com" aria-describedby="inputGroupPrepend" required>
@@ -254,7 +259,7 @@
         <?php echo $dateErr ?>
         </div>
       </div>
-    </div>
+    </div> -->
   <div class="form-group">
     <div class="form-check col-md-4 offset-md-4">
       <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
@@ -266,18 +271,19 @@
       </div>
     </div>
   </div>
-  <button type="submit" class="btn col-md-4 offset-md-4" name="signup" style="background-color:#363062 ; color:#E9D5DA">Sign Up</button>
+  <button type="submit" class="btn col-md-2 offset-md-4" name="signup" style="background-color:#363062 ; color:#E9D5DA">Sign Up</button>
+  <form class="needs-validation" action="register.php" method="POST" novalidate style="display:<?php echo $s2; ?> ;">
+<button class="btn col-md-2 " type="submit" name="switch" style="background-color:#E9D5DA ; color:#363062"><a href="./login.php">Log In !!!</a></button>
+</form>
   <br><br>
   
 </form>
 <!-- End Sign Up form -->
 
 <!-- switch to login form -->
-<form class="needs-validation" action="register.php" method="POST" novalidate style="display:<?php echo $s2; ?> ;">
-<button class="btn col-md-4 offset-md-4" type="submit" name="switch" style="background-color:#E9D5DA ; color:#363062"><a href="./login.php">Log In !!!</a></button>
-</form>
-<!-- end of switch to login form -->
 
+<!-- end of switch to login form -->
+</div>
 <br><br>
 <?php
  require 'include/footer.php'; 
